@@ -1,49 +1,24 @@
+# Restaurant Rating Recommendation
+> Predict ratings and recommend restaurants using ML
 
-# Restaurant Recommendation System
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-DE284C)
+![License](https://img.shields.io/github/license/rohitkedare2830/restaurant-rating-recommendation)
 
-## Cognifyz – Where Data Meets Intelligence
+## Overview
+This project predicts restaurant ratings based on features like location, menu, and reviews. Built with Python, Pandas, and Scikit-learn.
 
-## Abstract
-This project builds a content-based restaurant recommendation system that suggests restaurants
-based on cuisine type, price range, and aggregate ratings using cosine similarity.
-
-## Objectives
-- Build a restaurant recommendation system
-- Recommend restaurants based on user preferences
-- Preprocess and encode restaurant data
-- Apply content-based filtering
-
-## Dataset Description
-The dataset includes:
-- Restaurant Name
-- Cuisines
-- Price Range
-- Aggregate Rating
-
-## Data Preprocessing
-- Missing cuisines replaced with 'Unknown'
-- Missing price ranges filled with most frequent value
-- Missing ratings filled with mean value
-- Categorical features encoded using Label Encoding
-
-## Methodology
-- Feature vectors created for restaurants
-- Cosine similarity applied
-- Restaurants with highest similarity scores recommended
-
-## Tools & Technologies
+## Tech Stack
 - Python
-- Pandas, NumPy
+- FastAPI
 - Scikit-learn
+- Pandas
+- SQL
 
-## Results
-The system successfully recommends relevant restaurants matching user preferences.
+## Setup
+```bash
+git clone https://github.com/rohitkedare2830/restaurant-rating-recommendation
+cd restaurant-rating-recommendation
+pip install -r requirements.txt
 
-## Future Scope
-- Add collaborative filtering
-- Include restaurant location
-- Apply NLP on reviews
-- Deploy as a web application
 
-## Author
-Rohit Narayan Kedare
